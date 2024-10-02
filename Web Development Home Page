@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CodingAbbas</title>
+</head>
+<body>
+    <header class="header">
+        <div class="abbas">
+         <h2 class="codingabbas">CodingAbbas</h2>
+       <ul class="links" >
+                    <li><a class="home" href="#">Home</a></li>
+                    <li><a class="tag" href="#">About Us</a></li>
+                    <li><a class="tag" href="#">Services</a></li>
+                    <li><a class="tag" href="#">Portfolio</a></li>
+                    <li><a class="tag" href="#">Contact Us</a></li>
+                    </ul>
+                    <div class="on_off">
+                        
+                        <button class="sign"><a href="#" style="color: white;"><b>Sign In</b></a></button>
+                        <button class="up"><a href="#" style="color: white;"><b>Sign Up</b></a></button>
+
+</div>
+
+</nav>
+
+</header>
+    <section class="row">
+<div class="col">
+        <h2 style=" color: #fff;;">Mobile App Development.</h2>
+        <p class="paragraph"> Join us in the exciting world of programming and turn your ideas
+            into reality.Unlock the world of endless possibilities-learn to
+            code and shape the digital future with us. 
+        </p>
+        <div class="join-learn">
+                <a href="#"><button class="Join"> Join Now </button></a>
+                <a href="#"><button class="learn">Learn More</button></a>
+        </div> </div>
+<div class="img">
+        <img src="hero.bg.png" alt="hero image" />
+        </div>
+    </section>
+</body>
+</html>
+
+css part -:
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(90deg,#020024, #3a1047, #072f3c, #ab50a7);
+  height: 100vh;
+  width: 100%;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2% 2%;
+    padding-left: 40px;
+    padding-bottom: 50px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 35px;
+    padding-right: 50px;
+   
+}
+
+.abbas{
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+padding: 10px 0;
+padding-top: 50px;
+padding-left: 8px;
+}
+
+.navbar .buttons a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    padding: 15px 0;
+    transition: 0.2s ease;
+  }
+
+.codingabbas{
+    padding-left: 118px;
+}
+
+.sign{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 5px 10px;
+
+
+}
+.up{
+   border-radius: 5px; 
+   background-color: transparent;
+   padding: 5px 10px;
+   cursor: pointer;
+   transition: 0.3s;
+
+}
+
+
+    .sign:hover{
+color: rgb(255, 255, 255);
+background-color: red;
+transition: 0.3s;
+border-radius: 5px;
+padding: 5px 10px;
+cursor: pointer;
+
+    }
+
+
+    .up:hover{
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 174, 255);
+        transition: 0.3s;
+        border-radius: 5px;
+        cursor: pointer;
+        padding: 5px 10px;
+        
+    }
+    .row{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 95vh;
+        padding: 0 15px;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-top: 80px;
+        padding-right: 120px;
+    }
+    .row .col{
+        max-width: 44%;
+        padding-top: 50px;
+        padding-right: 30px;
+  color: #fff;
+    }
+            .button{
+                padding-top: 24px;
+            display: flex;
+            gap: 13px;   
+            
+         }
+.paragraph{
+    padding-top: 24px;
+    color: rgb(167, 165, 163);
+}
+.Join{
+    color: white;
+           
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                padding: 5px 12px;
+    background-color: #00bfff;
+}
+.learn{
+   
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 12px;
+    cursor: pointer;
+}
+    .tag{
+        color: white;
+        text-decoration: none;
+}
+.home{
+    text-decoration: none;
+    color: #448EE4;
+}
+.on_off{
+    padding-right: 150px;
+}
+.on_off a{
+    text-decoration: none;
+    }
+
+.join-learn{
+    padding-top: 25px;
+
+}
+
+.img{
+    width: 517px;
+    max-width: 100%;
+    text-align: center;
+    padding-left: 120px;
+}
+
+
+
+     
